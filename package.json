@@ -1,0 +1,20 @@
+{
+  "name": "sentiment-app",
+  "version": "1.0.0",
+  "description": "run sentiment analysis with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "sentiment",
+    "node"
+  ],
+  "author": "huy le",
+  "license": "ISC",
+  "dependencies": {
+    "node-sentiment": "0.0.7",
+    "nodemon": "^1.18.4"
+  }
+}
